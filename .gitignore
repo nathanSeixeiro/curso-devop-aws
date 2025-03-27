@@ -1,0 +1,29 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.terraform/
+
+# Ignore AWS credentials
+.aws/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore build artifacts
+dist/
+build/
+Terraform-Aula01/main-stack/.terraform.lock.hcl
