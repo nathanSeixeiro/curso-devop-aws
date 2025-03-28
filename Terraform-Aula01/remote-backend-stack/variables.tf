@@ -42,7 +42,7 @@ variable "remote_backend" {
     dynamo_table_hash_key_type = string
   })
   default = {
-    bucket_name                = "devops-aws-terraform-state"
+    bucket_name                = "devops-aws-terraform-state-007"
     dynamo_table_name          = "devops-aws-remote-table"
     dynamo_table_billing_mode  = "PAY_PER_REQUEST"
     dynamo_table_hash_key      = "LockId"
