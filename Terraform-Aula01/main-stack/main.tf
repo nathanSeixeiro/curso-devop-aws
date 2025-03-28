@@ -8,5 +8,11 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = var.assume_role.region
+  assume_role {
+    role_arn = var.assume_role.role_arn
+  }
+  default_tags {
+    tags = var.tags
+  }
 }
