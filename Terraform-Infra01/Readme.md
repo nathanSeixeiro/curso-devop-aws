@@ -1,4 +1,6 @@
-# Terraform-Infra01
+# Terraform - Remote Backend e State Locking
+
+![Image](https://github.com/user-attachments/assets/7b7f5339-4d28-4e11-9848-659464db7420)
 
 Este repositório contém a configuração de infraestrutura como código utilizando Terraform, seguindo as melhores práticas para provisionamento de recursos na AWS. Abaixo estão os principais pontos abordados neste projeto:
 
